@@ -1,0 +1,84 @@
+
+/* 
+
+©Felix Gramell 2019
+    :-) <3
+
+COLORS: 
+#39D7F6 - Blue
+#AB1470 - Pink
+#65CD21 - Green
+#7D71DB - Purple
+#CFBFAD - Beige
+#272822 - Dark Olive
+
+Inspired by Sublime 2
+*/
+
+@font-face {
+    font-family: pixelText;
+    src: url(fonts/Perfect\ DOS\ VGA\ 437\ Win.ttf);
+  }
+
+
+html, body{
+    background-color: #272822;
+    background-image: url("bg.jpg");
+    margin: 0;
+    font-family: "pixelText", sans-serif;
+    padding-top: 10px;
+}
+.content {
+    box-sizing: border-box;
+    border: 2px solid #CFBFAD;
+    padding: 30px;
+    width: 50%;
+    margin: auto;
+    background-color:#191a16;
+}
+
+.content p {
+    color: #CFBFAD;
+    font-size: 20px;
+}
+
+.content a{
+    color: #65CD21;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.content ul  {
+    color: #AB1470;
+    list-style-type: none;
+    margin: auto;
+    font-size: 14px;
+}
+
+.mainStuff {
+    width: 30%;
+    margin:auto;
+}
+
+.articles {
+    color: #7D71DB;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    padding-top: 25px;
+}
+article li {
+    padding: 30px;
+    font-size: 20px;
+}
+
+
+footer {
+    color: #65CD21  ;
+    padding-top: 10px;
+    text-align: center;
+}
