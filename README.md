@@ -1,3 +1,3 @@
 # Personal Website 🏗
 
-https://felky.github.io/felkyweb/🛩
+https://felky.github.io/felkyweb/
