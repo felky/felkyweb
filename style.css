@@ -22,6 +22,7 @@ Inspired by Sublime 2
 
 
 html, body{
+    overflow: hidden;
     background-color: #272822;
     background-image: url("bg.jpg");
     margin: 0;
@@ -38,17 +39,20 @@ html, body{
 }
 
 .content p {
+    text-shadow: 0px 0px 11px rgb(242, 243, 172);
     color: #CFBFAD;
     font-size: 20px;
 }
 
 .content a{
+    text-shadow: 0px 0px 11px rgb(143, 190, 137);
     color: #65CD21;
     text-decoration: none;
     font-size: 20px;
 }
 
 .content ul  {
+    text-shadow: 0px 0px 11px rgb(150, 55, 151);
     color: #AB1470;
     list-style-type: none;
     margin: auto;
@@ -78,7 +82,89 @@ article li {
 
 
 footer {
+    text-shadow: 0px 0px 11px rgb(143, 190, 137);
     color: #65CD21  ;
     padding-top: 10px;
     text-align: center;
+} 
+
+.screen::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;  
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+    z-index: 2;
+    background-size: 100% 2px, 3px 100%;
+    pointer-events: none;
+    animation: screenFlick 1.3s infinite;
+}
+
+
+@keyframes screenFlick {
+    0% {
+        opacity: 0.25;
+        }
+        5% {
+        opacity: 0.35;
+        }
+        10% {
+        opacity: 0.25;
+        }
+        15% {
+        opacity: 0.90;
+        }
+        20% {
+        opacity: 0.20;
+        }
+        25% {
+        opacity: 0.80;
+        }
+        30% {
+        opacity: 0.65;
+        }
+        35% {
+        opacity: 0.70;
+        }
+        40% {
+        opacity: 0.25;
+        }
+        45% {
+        opacity: 0.85;
+        }
+        50% {
+        opacity: 0.95;
+        }
+        55% {
+        opacity: 0.01;
+        }
+        60% {
+        opacity: 0.20;
+        }
+        65% {
+        opacity: 0.7;
+        }
+        70% {
+        opacity: 0.5;
+        }
+        75% {
+        opacity: 0.4;
+        }
+        80% {
+        opacity: 0.7;
+        }
+        85% {
+        opacity: 0.705;
+        }
+        90% {
+        opacity: 0.7;
+        }
+        95% {
+        opacity: 0.35;
+        }
+        100% {
+        opacity: 0.2;
+        }
 }
