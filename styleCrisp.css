@@ -1,0 +1,49 @@
+/*
+Crisp modern layout. 
+
+Colors: 
+    Teal Blue: #9dffde
+    Boring Blue: #9dbfff
+    Highlight Green: #adff9d
+
+
+(c) Felix Gramell 2019
+    <3
+
+*/
+
+@font-face {
+    font-family: Goodlight;
+    src: url(fonts/Goodlight.otf);
+  }
+
+
+* {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.slide {
+    width: inherit;
+    height: inherit;
+}
+
+#slideOne {
+    background: #2d2d2d; /* Old browsers */
+background: -moz-linear-gradient(top, #2d2d2d 1%, #050000 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #2d2d2d 1%,#050000 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #2d2d2d 1%,#050000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d2d2d', endColorstr='#050000',GradientType=0 ); /* IE6-9 */
+}
+
+#logoImage {
+    padding: 30px;
+    display: block;
+    height: 65px;
+    width: 200px;
+}
+
+footer {
+
+}
